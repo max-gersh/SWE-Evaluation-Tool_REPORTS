@@ -45,7 +45,7 @@ Hale, K.E., Jennings, K.S., Musselman, K.N., Livneh, B., Molotch, N.P. (2023). R
 
 Meromy, L., Molotch, N.P., Link, T.E., Fassnacht, S.R., & Rice, R. (2013). Subgrid variability of snow water equivalent at operational snow stations in the western USA. Hydrological Processes, 27, 2383-2400, doi: 10.1002/hyp.9355.
 
-Moeser, C. David., Chavarria, S. B., & Wootten, A. M. (2021). Streamflow response to potential changes in climate in the Upper Rio Grande Basin (USGS Numbered Series No. 2021–5138; Scientific Investigations Report). U.S. Geological Survey. https://www.usgs.gov/publications/streamflow-response-potential-changes-climate-upper-rio-grande-basin.
+Moeser, C.D., Chavarria, S.B., and Wootten, A.M. (2021). Streamflow response to potential changes in climate in the Upper Rio Grande Basin: U.S. Geological Survey Scientific Investigations Report 2021–5138, 41 p., https://doi.org/10.3133/sir20215138.
 
 Mote, P. W., Hamlet, A. F., Clark, M. P., & Lettenmaier, D. P. (2005). Declining mountain snowpack in western North America. Bulletin of the American Meteorological Society, 86(1), 39–50. https://doi.org/10.1175/BAMS-86-1-39.
 
