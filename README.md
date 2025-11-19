@@ -17,14 +17,18 @@ Because no spaceborne sensor can directly measure SWE, spatial distribution of S
 In the development of SWEET, building from previous research and our expertise, we have selected output from available models. Spatial resolution, temporal resolution, coverage, and data lag are model-dependent. These factors serve as key criteria in determining which models are selected, as they influence the model’s suitability for specific application in the project’s ensemble approach. The following models are included in the ensemble approach for WY2026 and are subject to change in the future.
 
 ### SNODAS SWE
-The SNOw Data Assimilation System (SNODAS) represents a modeling and data assimilation system developed by the National Operational Hydrologic Remote Sensing Center (NOHRSC). SNODAS generates spatial estimates of SWE, snow cover, and snow depth through a combination of remotely sensed snow data and in-situ measurements of SWE from SNOTEL at a 1-km spatial resolution and 24-hour temporal resolution.
+The SNOw Data Assimilation System (SNODAS) is a physically based energy and mass-balance snow model, driven by near real-time weather variables that can assimilate available snow data from remote sensing and in situ measurements. SNODAS was developed by NOAA’s National Operational Hydrologic Remote Sensing Center (NOHRSC) and has been produced operationally for the U.S. since 2004. SNODAS estimates multiple snow characteristics on a daily basis by merging satellite, airborne, and in situ snow data with modeled depictions of snow cover. SNODAS generates daily 1-km spatial estimates of snow variables, including SWE, snow depth, snowmelt, sublimation, and snowpack average temperature, that are modeled and made available.
 
-The national SNODAS dataset is available through the [SNODAS Data Products at National Snow and Ice Data Center (NSIDC), Version 1](https://nsidc.org/data/g02158/versions/1) (NOHRSC, 2004). SNODAS data can be viewed at the [NOHRSC Interactive Snow Information page](https://www.nohrsc.noaa.gov/interactive/html/map.html). Gridded observed snowfall images, seasonal totals, and data downloads in several formats can be found on the [National Gridded Snowfall Analysis page](https://www.nohrsc.noaa.gov/snowfall_v2/).
+The national SNODAS dataset is publicly available from the National Snow and Ice Data Center (NSIDC) Distributed Active Archive Center (DOI: 10.7265/N5TB14TC; NOHRSC, 2004). SNODAS data can be viewed at the [NOHRSC Interactive Snow Information page](https://www.nohrsc.noaa.gov/interactive/html/map.html). Gridded observed snowfall images, seasonal totals, and data downloads in several formats can be found on the [National Gridded Snowfall Analysis page](https://www.nohrsc.noaa.gov/snowfall_v2/).
 
-Refer to the [SNODAS User Guide](https://nsidc.org/sites/default/files/g02158-v001-userguide_2_1.pdf) and the [NSIDC Special Report 11](https://nsidc.org/sites/default/files/nsidc_special_report_11.pdf) (Barrett, 2003) for more information.
+For more information on SNODAS, visit the [SNODAS User Guide](https://nsidc.org/sites/default/files/g02158-v001-userguide_2_1.pdf) and the [NSIDC Special Report 11](https://nsidc.org/sites/default/files/nsidc_special_report_11.pdf) (Barrett, 2003).
 
 ### UA/SWANN SWE
-*Content describing UA/SWANN SWE workflow, model basis, resolution, and recommended usage will go here.*
+The University of Arizona/Snow Water Artificial Neural Network Modeling System (UA/SWANN) modeling system is a research product that uses snow models, assimilated in situ SWE data, and artificial neural networks (ANNs) to generate gridded estimates of SWE and snow cover. The UA/SWANN dataset provides daily 4-km and downscaled 800-m (downscaling method described in Broxton et al., 2024) SWE and snow depth over the conterminous United States. The dataset assimilates in-situ measurements from SNOTEL and COOP stations with modeled precipitation and temperature fields (PRISM) to generate spatially continuous estimates.
+
+The UA/SWANN SWE dataset is publicly available from the National Snow and Ice Data Center (NSIDC) Distributed Active Archive Center (DOI: 10.5067/0GGPB220EX6A; Broxton et al., 2019). The UA/SWANN SWE dataset can be viewed at the [SnowView Tool](https://snowview.arizona.edu/).
+
+For more information on UA/SWANN SWE, visit the [UA/SWANN User Guide](https://nsidc.org/sites/default/files/documents/user-guide/nsidc-0719-v001-userguide.pdf) and the [SnowView StoryMap](https://storymaps.arcgis.com/stories/28b6f41ba4934867873c1131c37237fd).
 
 ### CU SWE
 *Content describing CU SWE dataset characteristics, derivation, and integration steps will go here.*
@@ -36,6 +40,10 @@ The work completed and presented in this report is funded by NASA Western Water 
 Arsenault, R., Gatien, P., Renaud, B., Brissette, F., & Martel, J. L. (2015). A comparative analysis of 9 multi-model averaging approaches in hydrological continuous streamflow simulation. Journal of Hydrology, 529, 754-767.
 
 Barrett, Andrew. (2003). National Operational Hydrologic Remote Sensing Center Snow Data Assimilation System (SNODAS) Products at NSIDC. NSIDC Special Report 11. Boulder, CO USA: National Snow and Ice Data Center. 19 pp.
+
+Broxton, P., X. Zeng, and N. Dawson. (2019). Daily 4 km Gridded SWE and Snow Depth from Assimilated In-Situ and Modeled Data over the Conterminous US. (NSIDC-0719, Version 1). SWE Dataset. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/0GGPB220EX6A.
+
+Broxton, P., M. R. Ehsani, A. Behrangi, M. Reza. (2024). Improving mountain snowpack estimation using machine learning with Sentinel-1, the Airborne Snow Observatory, and University of Arizona snowpack data. Earth and Space Science, https://doi.org/10.1029/2023EA002964.
 
 Environmental Protection Agency [EPA]. (2016a). Climate Change Indicators: Drought. Web update: June 2024. Available at: https://www.epa.gov/climate-indicators/climate-change-indicators-drought. Accessed: March 31, 2025.
 
@@ -53,8 +61,8 @@ Mote, P. W., Li, S., Lettenmaier, D. P., Xiao, M., & Engel, R. (2018). Dramatic 
 
 Mudryk, L., Mortimer, C., Derksen, C., Elias Chereque, A., Kushner, P. (2025). Benchmarking of snow water equivalent (SWE) products based on outcomes of the SnowPEx+ Intercomparison Project. The Cryosphere, 19(1), pp. 201–218. Available at: https://doi.org/10.5194/tc-19-201-2025.
 
-NASA Wester Water Applications Office [WWAO] and Daniel B. Stephens & Associates, Inc. [DBS&A]. (2022). Rio Grande River Basin Needs Assessment Report. NASA WWAO Assessment Report. Available at: https://wwao.jpl.nasa.gov/documents/138/Water-Needs-Rio-Grande-Report-2022.pdf.
+NASA Western Water Actions Office [WWAO] and Daniel B. Stephens & Associates, Inc. [DBS&A]. (2022). Rio Grande River Basin Needs Assessment Report. NASA WWAO Assessment Report. Available at: https://wwao.jpl.nasa.gov/documents/138/Water-Needs-Rio-Grande-Report-2022.pdf.
 
-National Operational Hydrologic Remote Sensing Center [NOHRSC]. (2004). Snow Data Assimilation System (SNODAS) Data Products at NSIDC, Version 1. SWE Dataset. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. https://doi.org/10.7265/N5TB14TC. Accessed: April 1, 2025, and as needed.
+National Operational Hydrologic Remote Sensing Center [NOHRSC]. (2004). Snow Data Assimilation System (SNODAS) Data Products at NSIDC. (G02158, Version 1). SWE Dataset. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. https://doi.org/10.7265/N5TB14TC.
 
 Thompson, P.D. (1977). How to improve accuracy by combining independent forecasts. Monthly Weather Review, 105(2), pp.228-229.
